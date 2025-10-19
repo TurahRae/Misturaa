@@ -56,14 +56,29 @@
       color: #0077cc;
       text-decoration: none;
     }
+    /* Certifications vertical layout */
+    .certifications ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .certifications li strong {
+      display: block;
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
 
   <header>
     <h1>Mistura Ishola</h1>
-    <p> Frontend Developer | Mobile App Developer </p>
-    <p>Ikeja, Lagos State | <a href="mailto:Misturaaaishola@gmail.com">misturaaaishola@gmail.com</a> | +2348081202521</p>
+    <p>Frontend Developer | Mobile App Developer</p>
+    <p>Ikeja, Lagos State | 
+      <a href="mailto:Misturaaaishola@gmail.com">misturaaaishola@gmail.com</a> | 
+      +2348081202521
+    </p>
   </header>
 
   <section>
@@ -74,50 +89,46 @@
   <section>
     <h2>Education</h2>
     <ul>
-      <li>HND in Computer Science – Kwara State Polytechnic, Ilorin </li>
-      <li>ND in Computer Science – Kwara State Polytechnic, Ilorin </li>
+      <li>HND in Computer Science – Kwara State Polytechnic, Ilorin</li>
+      <li>ND in Computer Science – Kwara State Polytechnic, Ilorin</li>
     </ul>
   </section>
 
-  <section>
+  <section class="certifications">
     <h2>Certifications</h2>
     <ul>
-      <li>Advanced Frontend Development 
-        Bincom Academy </li>
-      <li>Mobile App Development 
-        Bincom Academy </li>
-      <li>Web Development with HTML and CSS for Beginners 
-        Alison: Empower Yourself </li>
-      <li>Building a Successful Business Website 
-        Alison: Empower Yourself </li>
-      <li>Post Graduate Diploma in Human Resource Management 
-        Chartered Institute of Human Resources Management, State of Nevada, USA </li>
-      <li>Post Graduate Diploma in Environmental Health and Safety 
-        Chartered Institute of Environmental Health and Safety, State of Nevada, USA </li>
+      <li><strong>Advanced Frontend Development</strong> Bincom Academy</li>
+      <li><strong>Mobile App Development</strong> Bincom Academy</li>
+      <li><strong>Web Development with HTML and CSS for Beginners</strong> Alison: Empower Yourself</li>
+      <li><strong>Building a Successful Business Website</strong> Alison: Empower Yourself</li>
+      <li><strong>Post Graduate Diploma in Human Resource Management</strong> Chartered Institute of Human Resources Management, State of Nevada, USA</li>
+      <li><strong>Post Graduate Diploma in Environmental Health and Safety</strong> Chartered Institute of Environmental Health and Safety, State of Nevada, USA</li>
     </ul>
   </section>
 
   <section>
     <h2>Experience</h2>
-    <section>
-    <h3>Bincom Dev Center – Bincom Academy</h3>
-    <h4>Frontend Developer / Mobile Developer (Project-Based) </h4>
-  <ul>
-  <li>Built and deployed responsive and user-friendly web and mobile applications.</li>
-  <li>Collaborated on team projects simulating real work environments.</li>
-  <li>Gained hands-on experience integrating REST APIs and optimizing app performance.</li>
-  <li>Improved application quality and performance through effective debugging and testing.</li>
-  </ul>
-    </section>
 
-    <section>
-    <h3>NYSC – Administrative Assistant | INEC, Ogun State</h3>
-    <ul>
-      <li>Coordinated sensitization and voter education workshops for electorates.</li>
-      <li>Conducted surveys to identify improvement areas in local programs.</li>
-      <li>Assisted in preparing reports on voter education programs and local outreach activities.</li>
-      <li>Distributed PVCs to voters at wards and polling units.</li>
-    </ul>
+    <div>
+      <h3>Bincom Dev Center – Bincom Academy</h3>
+      <h4>Frontend Developer / Mobile Developer (Project-Based)</h4>
+      <ul>
+        <li>Built and deployed responsive and user-friendly web and mobile applications.</li>
+        <li>Collaborated on team projects simulating real work environments.</li>
+        <li>Integrated REST APIs and optimized app performance.</li>
+        <li>Improved application quality through effective debugging and testing.</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>NYSC – Administrative Assistant | INEC, Ogun State</h3>
+      <ul>
+        <li>Coordinated sensitization and voter education workshops for electorates.</li>
+        <li>Conducted surveys to identify improvement areas in local programs.</li>
+        <li>Assisted in preparing reports on voter education and outreach activities.</li>
+        <li>Distributed PVCs to voters at wards and polling units.</li>
+      </ul>
+    </div>
   </section>
 
   <section>
@@ -151,22 +162,22 @@
   <section>
     <h2>Interests</h2>
     <ul>
-      <li>Reading & continous learning</li>
-      <li>Stategic games (Chess, Scrabble)</li>
-      <li>Traveling & cultural exploration</li>
-      <li>Voluteering & community engagement</li>
+      <li>Reading & Continuous Learning</li>
+      <li>Strategic Games (Chess, Scrabble)</li>
+      <li>Traveling & Cultural Exploration</li>
+      <li>Volunteering & Community Engagement</li>
     </ul>
   </section>
 
   <section>
     <h2>Photos</h2>
     <div class="images">
-      <img src="./Mistura-01.JPG">
-      <img src="./Mistura-02.JPG">
-      <img src="./Mistura-03.JPG">
-      <img src="./Mistura-04.JPG">
-      <img src="./Mistura-05.JPG">
-      <img src="./Mistura-06.JPG">
+      <img src="./Mistura-01.JPG" alt="Mistura Ishola 1">
+      <img src="./Mistura-02.JPG" alt="Mistura Ishola 2">
+      <img src="./Mistura-03.JPG" alt="Mistura Ishola 3">
+      <img src="./Mistura-04.JPG" alt="Mistura Ishola 4">
+      <img src="./Mistura-05.JPG" alt="Mistura Ishola 5">
+      <img src="./Mistura-06.JPG" alt="Mistura Ishola 6">
     </div>
   </section>
 
@@ -182,5 +193,3 @@
 
 </body>
 </html>
-
-
