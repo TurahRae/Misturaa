@@ -1,7 +1,7 @@
 # 👩‍💻 Mistura – Portfolio Website
 
 A clean and responsive personal portfolio website built using **HTML**.  
-This site highlights who I am, my skills and the work I do as a front-end developer
+This site highlights who I am, my skills and the work I do as a frontend developer
 
 🔗 **Live Site:** [Visit Portfolio](https://turahrae.github.io/Misturaa/)
 
@@ -21,8 +21,8 @@ This site highlights who I am, my skills and the work I do as a front-end develo
 
 ## 📁 Project Structure
 Misturaa/
-├── index.html  
-└── README.md
+- ├── index.html  
+- └── README.md
 
 ---
 
