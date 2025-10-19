@@ -20,9 +20,12 @@ This site highlights who I am, my skills and the work I do as a frontend develop
 - **HTML** – For structure and content
 
 ## 📁 Project Structure
+
+```
 Misturaa/
-- ├── index.html  
-- └── README.md
+ ├── index.html  
+└── README.md
+```
 
 ---
 
