@@ -1,4 +1,4 @@
-# 👩‍💻 Mistura – Portfolio Website
+# 👩‍💻 Portfolio Website
 
 A clean and responsive personal portfolio website built using **HTML**.  
 This site highlights who I am, my skills and the work I do as a frontend developer
