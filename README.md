@@ -3,7 +3,7 @@
 A clean and responsive personal portfolio website built using **HTML**.  
 This site highlights who I am, my skills and the work I do as a frontend developer
 
-🔗 **Live Site:** [Visit Portfolio](https://turahrae.github.io/Misturaa/)
+🔗 **Live Site:** [Visit Portfolio](https://misturadev.github.io/Misturaa/)
 
 ---
 
@@ -43,3 +43,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 Made with ❤️ by **Mistura Ishola**
+
+Connect with me: [LinkedIn](https://www.linkedin.com/in/mistura-ishola/)
+
